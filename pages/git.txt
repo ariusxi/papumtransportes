@@ -1,0 +1,95 @@
+// configuração inicial
+
+git config --global user.name "Alef Felix"
+git config --global user.email "alef.developerweb@gmail.com"
+
+// entrar em pasta
+
+cd pasta que deseja entrar
+
+// sair da pasta
+
+cd ..
+
+// entrar em diretorio direto
+
+cd pasta1/pasta2/pasta3
+
+// limpar console
+
+clear
+
+// criar um repositório na pasta atual
+
+git init
+
+// verificar status atual do repositorio
+
+git status
+
+// para adicionar arquivos ao repositório
+
+git add arquivo.extensao
+
+// para adicionar todos os arquivos do diretorio atual
+
+git add .
+
+// para adicionar arquivos por extensao
+
+git add *.extensao
+
+// para mandar mudanças para o repositorio
+
+git commit
+
+// para evitar mensagem do commit
+
+git commit -m "Descrição do seu commit"
+
+// evitar certos arquivos da pasta atual para ser ignorado pelo git
+
+// criar um arquivo na pasta atual com nome de .gitignore
+// dentro do .gitignore coloque o nome dos arquivos com a extensao
+// Exemplo: arquivo.extensao
+
+// para saber quais foram as alterações em um determinado arquivo
+
+git diff
+
+// para saber o que vai ser mandado da staging area
+
+git diff --staged
+
+// para ver historico de alterações do repositorio
+
+git log
+
+// para ver o historico em ordem cronologica junto com alterações
+
+git log -p
+// para voltar basta apertar a tecla Q
+
+// para limitar quantidade de commits do historico
+
+git log -p -1
+
+// para ver historico de commits na interface grafica para ver um relatorio com mais detalhes
+
+gitk
+
+// para mostrar somente o código de cada commit e a mensagem do commit
+
+git log --pretty=oneline
+
+// para juntar a alteração de um arquivo com um commit que ja foi feito
+
+git commit --amend -m "Descrição do commit ja feito (edicao)"
+
+// para remover arquivo da staging area
+
+git reset HEAD arquivo.extensao
+
+// para reverter arquivo ao que era antes
+
+git checkout -- arquivo.extensao
