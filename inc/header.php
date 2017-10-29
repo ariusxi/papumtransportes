@@ -17,10 +17,11 @@
 	}
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
   <head>
 		<title>Papum Transportes</title>
 		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE; ?>css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo BASE; ?>css/font-awesome.css">
