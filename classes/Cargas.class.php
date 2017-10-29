@@ -62,6 +62,7 @@
 			if($dataquery->rowCount()){
 				$i = 0;
 				while($fetch = $dataquery->fetchObject()){
+					$arr['results'][$i]["id"] = $fetch->id;
 					$arr['results'][$i]["titulo"] = $fetch->titulo;
 					$arr['results'][$i]["entrega"] = $fetch->entrega;
 					$arr['results'][$i]["retirada"] = $fetch->retirada;
